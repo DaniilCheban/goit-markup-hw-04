@@ -577,6 +577,7 @@ background: var(--cloud, #F4F4FD);
 }
 .image-cover-block{
 position: relative;
+overflow: hidden;
 }
 .image-cover-text{
     position: absolute;
