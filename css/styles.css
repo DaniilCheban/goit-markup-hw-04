@@ -679,8 +679,6 @@ gap: 16px;
 .footer-social-item {
     width: 40px; 
     height: 40px;
-    gap: 16px;
-    border-radius: 50%;
     border: 1px solid rgba(77, 90, 229, 1) ;
     background-color:rgba(77, 90, 229, 1) ;
     display: flex;
@@ -694,6 +692,7 @@ gap: 16px;
     width: 100%;
     height: 100%;
     border-radius: 50%;
+    border: 1px solid rgba(77, 90, 229, 1);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -764,14 +763,13 @@ border-radius: 50%;
     padding: 0;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1)
 }
-.modal-btn:hover{
+.modal-btn:hover,
+.modal-btn:focus   {
     background-color: #404bbf;
     border: none;
+   
 }
-.modal-btn:focus {
-    background-color: #404bbf;
-    border: none;
-}
+
 .is-hidden {
     opacity: 0;
     visibility: hidden;
