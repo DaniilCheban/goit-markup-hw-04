@@ -782,8 +782,8 @@ border-radius: 50%;
     border: none;
 }
 
-.modal-btn:hover .icon-modal,
-.modal-btn:focus .icon-modal {
+.icon-modal:hover,
+.icon-modal:focus {
     fill: #ffffff;
 }
         
@@ -795,10 +795,7 @@ border-radius: 50%;
 }
 
 
-/*================FORM=============*/
-
-
-
+/*================FORM=============
 .form-container{
     padding: 72px 24px;
 }
@@ -859,7 +856,7 @@ border-radius: 50%;
     fill: #4D5AE5;
 }
 
- .current-form::before {
+/* .current-form::before {
     content: " ";
 position: absolute;
 width: 1.25px;
