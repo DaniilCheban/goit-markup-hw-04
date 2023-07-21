@@ -782,8 +782,8 @@ border-radius: 50%;
     border: none;
 }
 
-.icon-modal:hover,
-.icon-modal:focus {
+.modal-btn:hover .icon-modal,
+.modal-btn:focus .icon-modal {
     fill: #ffffff;
 }
         
