@@ -795,7 +795,10 @@ border-radius: 50%;
 }
 
 
-/*================FORM=============
+/* ================FORM=============*/
+
+
+
 .form-container{
     padding: 72px 24px;
 }
@@ -856,7 +859,7 @@ border-radius: 50%;
     fill: #4D5AE5;
 }
 
-/* .current-form::before {
+ .current-form::before {
     content: " ";
 position: absolute;
 width: 1.25px;
@@ -895,36 +898,49 @@ transform: translateY(-50%);
         font-size: 12px;
         letter-spacing: 0.04em;
         color: rgba(46, 47, 66, 0.4);
+        fill: transparent;
         
 }
 .coment-text-area:focus::placeholder{
     opacity: 0;
 }
-.check-box{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.coment-text-area:focus{
+    border-color: #4D5AE5;
+}
+
+.term-input-wrap{
     margin-bottom: 24px;
 }
-.input-checkbox:checked{
-    border-radius: 2px;
-        border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
-       
+
+.input-checkbox{
 
 }
-.checkbox-term {
-    color: #8E8F99;
-        font-family: "Roboto";
+    
+
+.term-lable-box {
+    
+}
+.check-text-span{
+   
+
+}
+
+.terms-icon {}
+
+.privasy-link {
+   
         font-size: 12px;
-        font-style: normal;
         font-weight: 400;
-        line-height: 1.17;
+        line-height: 11.7;
         letter-spacing: 0.04em;
 }
+       
 
-.checkbox-term-span {
-    color:rgba(77, 90, 229, 1);
-}
+
+    
+
+
+
 
 .form-btn {
   
